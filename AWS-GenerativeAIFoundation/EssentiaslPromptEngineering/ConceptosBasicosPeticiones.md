@@ -129,18 +129,18 @@ La secuencias de detención **puede predefinirse o generarse dinámcamente en fu
     ```
 
 - ***Proporcione un ejemplo de repsuesta***: Utilice el **formato de resultado esperado como ejemplo** de respuesta en la petición.
-``` python
+    ``` python
 
-## Petición inadecuado
-Determine el sentimiento de esta publicación de redes socales: [Texto]
+    ## Petición inadecuado
+    Determine el sentimiento de esta publicación de redes socales: [Texto]
 
-## Petición adecuada
-Determine el sentimiento de la siguiente publicación de redes sociales en función de estos ejemplos:
-publicación: “excelente bolígrafo” => Positivo
-publicación: “Odio cuando mi teléfono se queda sin batería” => Negativo
-[insertar publicación de redes sociales] =>
+    ## Petición adecuada
+    Determine el sentimiento de la siguiente publicación de redes sociales en función de estos ejemplos:
+    publicación: “excelente bolígrafo” => Positivo
+    publicación: “Odio cuando mi teléfono se queda sin batería” => Negativo
+    [insertar publicación de redes sociales] =>
 
-```  
+    ```  
 
 - ***Divida las tareas complejas***: Los modelos fundacionales puede confundirse cuando se le pide que realicen tareas complejas.
     - Divida la tarea en varias subtareas. Si no puede obtener resultados fiables, intente dividir la tarea en varias peticiones.
@@ -192,7 +192,7 @@ Ejemplo de petición de entrenamiento previo
 |Indique el sentimiento que le genera la siguiente publicación de redes sociales y clasifiquelo cono positivo, negativo o neutro:|**POSITIVO**|  
 |¡Un enorme agradecimiento al increible equipo de AnyCompany! Su servicio de atención al cliente de primera categoría sigue dejándome boquiabierto. ¡Es un orgullo ser cliente fiel!|
 
-## Paticiones a partir de algunos ejemplos  
+## Peticiones a partir de algunos ejemplos  
 Consiste en **proporcionar un modelo de lenguaje con ejemplos contextuales** para guiar su comprensión y el resultado esperado para una tarea específica.
 - Asegúrese de seleccionar ejemplos que sea representativos de la tarea que desea que realice el modelo y que abarquen una amplia gama de entrada y resultados.
 - Experimente con la cantidad de ejemplos. La cantidad óptima de ejemplso para incluir en una petición a partir de algunas ejemplos puede variar según la tarea.  
