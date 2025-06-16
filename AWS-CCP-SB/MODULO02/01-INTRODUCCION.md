@@ -51,3 +51,20 @@ Ofrece diversas ***opciones de precios para distintos casos de uso***. Por ejemp
 - ***Instancias de Spot***: Permite aprovechar la capacidad de cómputo no utilizada de AWS a un precio mucho más bajo (hasta un 90% de descuento) en comparación con las instancias bajo demanda.
 - ***Servidores dedicados***: Son servidores físicos con capacidad de instancias de Amazon EC2 totalmente dedicados a su uso. Puede utilizar las licencias de software por zócalo, por núcleo o por máquina virtual (VM).
 
+## Escalabilidad  
+Implica comenzar solo con los recursos que necesita y diseñar la arquitectura para **responde automáticamente a la demanada cambiante mediante** el escalado o la reducción horizontal.
+
+> Si quisiera que el proceso de escalado se realizara automáticamente, ¿Qué servicio de AWS utilizada? El servicio de AWS que proporciona esta funcionalidad para las instanacias de Amazon EC2 es **Amazon EC2 Auto Scaling**  
+
+## Amazon EC2 Auto Scaling  
+Permite **anadir o eliminar automaticamente instancias de Amazon EC2** en respuesta a la demanda cambiante de las aplicaciones. Al escalar y reducir horizontalmente de forma automática sus instancias según sea necesario, podrá mantener una **mayor sensación de disponibilidad de las aplicaciones**.  
+En Amazon EC2 Auto Scaling, puede utilizar 2 enfoques, escalado dinámico y escalado predictivo.
+- El ***escalado dinámico*** responde a la demanda cambiante.
+- El ***escalado predictivo*** programa automáticamente el número correcto de instancias de Amazon EC2 en función a la demanda prevista.
+
+## Dirección de tráfico con Elastic Load Balancing  
+Es el servicio de AWS que ``distribuye automáticamente el tráfico de aplicaciones`` entrantes entre varios recursos, como las instancias de Amazon EC2.  
+Elastic Load Balancing distribuye la carga de trabajo entre las distintas instancias para que ninguna instancia tenga que cargar la mayor parte.  
+
+![](../images/Elastic-Load-Balancer.png)  
+
